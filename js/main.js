@@ -165,7 +165,11 @@ const translations = {
         // Diğer
         "last_updated": "Son Güncellenme",
         "save_as_pdf": "PDF İndir",
-        "email_send": "E-posta Gönder"
+        "email_send": "E-posta Gönder",
+
+        // Sayfa başlığı ve açıklaması
+        "page_title": "Mustafa Polat - CV",
+        "page_description": "Mustafa Polat'ın CV'si - Enerji Sistemleri Mühendisi ve Web Geliştirici"
     },
     en: {
         // General texts
@@ -330,7 +334,11 @@ const translations = {
         // Other
         "last_updated": "Last Updated",
         "save_as_pdf": "Download PDF",
-        "email_send": "Send Email"
+        "email_send": "Send Email",
+
+        // Sayfa başlığı ve açıklaması
+        "page_title": "Mustafa Polat - Resume",
+        "page_description": "Resume of Mustafa Polat - Energy Systems Engineer and Web Developer"
     },
     pl: {
         // Ogólne teksty
@@ -496,7 +504,11 @@ const translations = {
         "last_updated": "Ostatnia Aktualizacja",
         "save_as_pdf": "Pobierz PDF",
         "email_send": "Wyślij Email",
-        "language": "Polski"
+        "language": "Polski",
+
+        // Sayfa başlığı ve açıklaması
+        "page_title": "Mustafa Polat - CV",
+        "page_description": "CV Mustafy Polata - Inżynier Systemów Energetycznych i Programista Webowy"
     }
 };
 
@@ -548,6 +560,13 @@ function changeLanguage(language) {
             // HTML içeriği desteklenen elementler için
             if (element.hasAttribute('data-html')) {
                 element.innerHTML = translations[language][key];
+            } else if (element.tagName === 'META' && element.hasAttribute('content')) {
+                // Meta etiketleri için content özelliğini güncelle
+                element.setAttribute('content', translations[language][key]);
+            } else if (element.tagName === 'TITLE') {
+                // Title etiketi için document.title'ı güncelle
+                document.title = translations[language][key];
+                element.textContent = translations[language][key];
             } else {
                 element.textContent = translations[language][key];
             }
