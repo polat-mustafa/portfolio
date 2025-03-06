@@ -56,4 +56,4 @@ Bu projeyi istediğiniz gibi kullanmakta özgürsünüz.
 
 ---
 
-Oluşturan: [Adınız Soyadınız](https://github.com/kullaniciadi) 
+Oluşturan: [Mustafa Polat](https://github.com/polat-mustafa) 
