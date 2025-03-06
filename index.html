@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Profesyonel Özgeçmiş</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="settings-bar">
+            <div class="language-selector">
+                <div class="language-buttons">
+                    <button class="lang-btn" data-lang="tr">
+                        <span class="flag">🇹🇷</span> Türkçe
+                    </button>
+                    <button class="lang-btn" data-lang="en">
+                        <span class="flag">🇬🇧</span> English
+                    </button>
+                    <button class="lang-btn" data-lang="pl">
+                        <span class="flag">🇵🇱</span> Polski
+                    </button>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button id="pdf-button" class="action-btn">
+                    <i class="fas fa-file-pdf"></i> <span data-tr="save_as_pdf">PDF İndir</span>
+                </button>
+                <button id="theme-toggle" class="action-btn">
+                    <i class="fas fa-moon" id="theme-icon"></i> <span id="theme-text">Karanlık Mod</span>
+                </button>
+            </div>
+        </div>
+
+        <header>
+            <div class="profile-header">
+                <div class="profile-image">
+                    <img src="https://avatars.githubusercontent.com/u/70276265?v=4" alt="Profil Fotoğrafı" id="profile-photo">
+                </div>
+                <div class="profile-info">
+                    <h1 class="name" data-tr="name">Adınız Soyadınız</h1>
+                    <div class="contact-info">
+                        <p>
+                            <span class="contact-item"><i class="fas fa-envelope"></i> <span data-tr="email">email@example.com</span></span>
+                            <span class="contact-item"><i class="fas fa-phone"></i> <span data-tr="phone">(555) 123-4567</span></span>
+                            <span class="contact-item"><i class="fas fa-map-marker-alt"></i> <span data-tr="location">İstanbul, Türkiye</span></span>
+                        </p>
+                        <p>
+                            <span class="contact-item"><i class="fab fa-linkedin"></i> <span data-tr="linkedin">linkedin.com/in/adinizsoyadiniz</span></span>
+                            <span class="contact-item"><i class="fab fa-github"></i> <span data-tr="github">github.com/kullaniciadi</span></span>
+                            <span class="contact-item"><i class="fas fa-globe"></i> <span data-tr="website">website.com</span></span>
+                            <span class="contact-item"><i class="fab fa-medium"></i> <span data-tr="medium">medium.com/@kullaniciadi</span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="profile">
+            <h2 class="section-title" data-tr="profile_title">PROFİL</h2>
+            <div class="section-content">
+                <p class="profile-text" data-tr="profile_text" data-html="true">Deneyimli bir profesyonel olarak, [alanınızda] [X] yıllık deneyimle çalışmaktayım. [Önemli becerileriniz veya başarılarınız] konularında uzmanlığa sahibim. [Kariyer hedefleriniz veya profesyonel amacınız hakkında kısa bir cümle].</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title" data-tr="education_title">EĞİTİM</h2>
+            <div class="section-content">
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="degree1">Derece Adı</span>
+                        <span class="item-date" data-tr="degree1_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="university1">Üniversite Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="courses1">Önemli dersler: Ders 1, Ders 2, Ders 3</li>
+                        <li data-tr="gpa1">Not Ortalaması: X.XX/4.00</li>
+                        <li data-tr="projects1">İlgili projeler veya başarılar</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="degree2">Derece Adı</span>
+                        <span class="item-date" data-tr="degree2_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="university2">Üniversite Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="courses2">Önemli dersler: Ders 1, Ders 2, Ders 3</li>
+                        <li data-tr="gpa2">Not Ortalaması: X.XX/4.00</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title" data-tr="professional_experience_title">PROFESYONEL DENEYİM</h2>
+            <div class="section-content">
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="position1">Pozisyon Adı</span>
+                        <span class="item-date" data-tr="position1_date">Ay Yıl - Şu an</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="company1">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="responsibility1_1">Başarı veya sorumluluk 1</li>
+                        <li data-tr="responsibility1_2">Başarı veya sorumluluk 2</li>
+                        <li data-tr="responsibility1_3">Başarı veya sorumluluk 3</li>
+                        <li data-tr="responsibility1_4">Başarı veya sorumluluk 4</li>
+                        <li data-tr="responsibility1_5">Başarı veya sorumluluk 5</li>
+                        <li data-tr="responsibility1_6">Başarı veya sorumluluk 6</li>
+                        <li data-tr="responsibility1_7">Başarı veya sorumluluk 7</li>
+                        <li data-tr="responsibility1_8">Başarı veya sorumluluk 8</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="position2">Pozisyon Adı</span>
+                        <span class="item-date" data-tr="position2_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="company2">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="responsibility2_1">Başarı veya sorumluluk 1</li>
+                        <li data-tr="responsibility2_2">Başarı veya sorumluluk 2</li>
+                        <li data-tr="responsibility2_3">Başarı veya sorumluluk 3</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="position3">Pozisyon Adı</span>
+                        <span class="item-date" data-tr="position3_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="company3">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="responsibility3_1">Başarı veya sorumluluk 1</li>
+                        <li data-tr="responsibility3_2">Başarı veya sorumluluk 2</li>
+                        <li data-tr="responsibility3_3">Başarı veya sorumluluk 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="internship">
+            <h2 class="section-title" data-tr="internship_title">STAJ DENEYİMİ</h2>
+            <div class="section-content">
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="internship1">Staj Pozisyonu</span>
+                        <span class="item-date" data-tr="internship1_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="internship1_company">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="internship1_responsibility1">Görev veya sorumluluk 1</li>
+                        <li data-tr="internship1_responsibility2">Görev veya sorumluluk 2</li>
+                        <li data-tr="internship1_responsibility3">Görev veya sorumluluk 3</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="internship2">Staj Pozisyonu</span>
+                        <span class="item-date" data-tr="internship2_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="internship2_company">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="internship2_responsibility1">Görev veya sorumluluk 1</li>
+                        <li data-tr="internship2_responsibility2">Görev veya sorumluluk 2</li>
+                        <li data-tr="internship2_responsibility3">Görev veya sorumluluk 3</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="internship3">Staj Pozisyonu</span>
+                        <span class="item-date" data-tr="internship3_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="internship3_company">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="internship3_responsibility1">Görev veya sorumluluk 1</li>
+                        <li data-tr="internship3_responsibility2">Görev veya sorumluluk 2</li>
+                        <li data-tr="internship3_responsibility3">Görev veya sorumluluk 3</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="internship4">Staj Pozisyonu</span>
+                        <span class="item-date" data-tr="internship4_date">Ay Yıl - Ay Yıl</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="internship4_company">Şirket Adı, Şehir, Ülke</div>
+                    <ul class="item-details">
+                        <li data-tr="internship4_responsibility1">Görev veya sorumluluk 1</li>
+                        <li data-tr="internship4_responsibility2">Görev veya sorumluluk 2</li>
+                        <li data-tr="internship4_responsibility3">Görev veya sorumluluk 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title" data-tr="skills_title">BECERİLER</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 data-tr="technical_skills">Teknik Beceriler</h3>
+                        <ul>
+                            <li data-tr="skill1">Beceri 1</li>
+                            <li data-tr="skill2">Beceri 2</li>
+                            <li data-tr="skill3">Beceri 3</li>
+                            <li data-tr="skill4">Beceri 4</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-tr="languages">Diller</h3>
+                        <ul>
+                            <li data-tr="language1">Türkçe (Anadil)</li>
+                            <li data-tr="language2">İngilizce (İleri)</li>
+                            <li data-tr="language3">Diğer diller</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-tr="soft_skills">Yumuşak Beceriler</h3>
+                        <ul>
+                            <li data-tr="soft_skill1">Beceri 1</li>
+                            <li data-tr="soft_skill2">Beceri 2</li>
+                            <li data-tr="soft_skill3">Beceri 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title" data-tr="projects_title">PROJELER</h2>
+            <div class="section-content">
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="project1">Proje Adı</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="project1_tech">Kullanılan Teknolojiler: Teknoloji 1, Teknoloji 2, Teknoloji 3</div>
+                    <ul class="item-details">
+                        <li data-tr="project1_desc1">Proje açıklaması 1</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="project2">Proje Adı</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="project2_tech">Kullanılan Teknolojiler: Teknoloji 1, Teknoloji 2, Teknoloji 3</div>
+                    <ul class="item-details">
+                        <li data-tr="project2_desc1">Proje açıklaması 1</li>
+                    </ul>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="project3">Proje Adı</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="project3_tech">Kullanılan Teknolojiler: Teknoloji 1, Teknoloji 2, Teknoloji 3</div>
+                    <ul class="item-details">
+                        <li data-tr="project3_desc1">Proje açıklaması 1</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2 class="section-title" data-tr="certificates_title">SERTİFİKALAR</h2>
+            <div class="section-content">
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate1">Fotovoltaik Teknik Eğitim Programı</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate1_org">CW ENERJİ</div>
+                    <p class="item-description" data-tr="certificate1_desc">Fotovoltaik sistemlerin tasarımı, uygulanması ve yönetimi hakkında sertifika.</p>
+                    <p class="item-date" data-tr="certificate1_date">Eylül 2020</p>
+                </div>
+                
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate2">English</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate2_org">Oxford Language Academy</div>
+                    <p class="item-description" data-tr="certificate2_desc">İngilizce dil yeterliliği sertifikası.</p>
+                    <p class="item-date" data-tr="certificate2_date">Eylül 2020</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate3">Yapay Zeka İle Dönüştürelim Katılım Belgesi</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate3_org">Kodluyoruz</div>
+                    <p class="item-description" data-tr="certificate3_desc">Yapay zeka teknolojileri ve uygulamaları eğitimi sertifikası.</p>
+                    <p class="item-date" data-tr="certificate3_date">2023</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate4">Yazılım Dünyasında Kariyer Basamakları</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate4_org">Kodluyoruz - İngiltere Büyükelçiliği</div>
+                    <p class="item-description" data-tr="certificate4_desc">Yazılım kariyeri gelişim yolları hakkında eğitim sertifikası.</p>
+                    <p class="item-date" data-tr="certificate4_date">2023</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate5">Web3 Fundamentals</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate5_org">Patika.dev</div>
+                    <p class="item-description" data-tr="certificate5_desc">Web3 teknolojilerinin temelleri eğitimi sertifikası.</p>
+                    <p class="item-date" data-tr="certificate5_date">Eylül 2022</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate6">React: Software Architecture</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate6_org">LinkedIn</div>
+                    <p class="item-description" data-tr="certificate6_desc">React uygulamalarında yazılım mimarisi prensipleri eğitimi.</p>
+                    <p class="item-date" data-tr="certificate6_date">Ağustos 2022</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate7">Kodla, Kariyerine Başla - Hazırlık JavaScript</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate7_org">Patika.dev</div>
+                    <p class="item-description" data-tr="certificate7_desc">JavaScript programlama temelleri eğitimi sertifikası.</p>
+                    <p class="item-date" data-tr="certificate7_date">Şubat 2022</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate8">Beginner Level Web Development Certification</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate8_org">Patika.dev</div>
+                    <p class="item-description" data-tr="certificate8_desc">Başlangıç seviyesi web geliştirme eğitimi sertifikası.</p>
+                    <p class="item-date" data-tr="certificate8_date">Ocak 2022</p>
+                </div>
+
+                <div class="item">
+                    <div class="item-header">
+                        <span class="item-title" data-tr="certificate9">Girişimcilik</span>
+                    </div>
+                    <div class="item-subtitle" data-tr="certificate9_org">KOSGEB</div>
+                    <p class="item-description" data-tr="certificate9_desc">Girişimcilik temel prensipleri ve iş kurma eğitimi sertifikası.</p>
+                    <p class="item-date" data-tr="certificate9_date">Haziran 2019</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p><span data-tr="last_updated">Son Güncellenme</span>: <span id="lastUpdated"></span></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

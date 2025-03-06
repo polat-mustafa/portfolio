@@ -1,0 +1,56 @@
+ # IDE ve Editör Dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vs/
+*.swp
+*.swo
+*~
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Geçici Dosyalar ve Önbellekler
+tmp/
+temp/
+.cache/
+.sass-cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Derleme Çıktıları (eğer build süreci kullanıyorsanız)
+dist/
+build/
+out/
+public/dist/
+
+# Paket Yöneticisi Dosyaları (eğer kullanıyorsanız)
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+
+# Kişisel / Hassas Bilgiler (eğer varsa)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.js
+secrets.json
+
+# Diğer
+*.bak
+*.old
+*.zip
+*.rar
+*.tar.gz
