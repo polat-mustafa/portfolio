@@ -43,7 +43,7 @@ const translations = {
         "projects1": "Arduino destekli, güneş paneli ile beslenen nem ve ışık sensörlü otomatik sulama sistemi",
         "degree2": "Elektrik ve Enerji",
         "degree2_date": "Eylül 2012 - Haziran 2014",
-        "university2": "Mustafa Kemal Üniversitesi, Gdynia, Polonya",
+        "university2": "Mustafa Kemal Üniversitesi, İskenderun, Türkiye",
         "courses2": "Önemli dersler: Elektrik temelleri, Elektronik temelleri, Matematik",
         "gpa2": "Not Ortalaması: 2.95/4.00",
 
@@ -208,7 +208,7 @@ const translations = {
         "projects1": "Arduino-supported automatic irrigation system with moisture and light sensors powered by solar panel",
         "degree2": "Electricity and Energy",
         "degree2_date": "September 2012 - June 2014",
-        "university2": "Mustafa Kemal University, Gdynia, Poland",
+        "university2": "Mustafa Kemal University, Iskenderun, Turkey",
         "courses2": "Key courses: Electrical fundamentals, Electronics fundamentals, Mathematics",
         "gpa2": "GPA: 2.95/4.00",
 
@@ -373,7 +373,7 @@ const translations = {
         "projects1": "System automatycznego nawadniania wspierany przez Arduino z czujnikami wilgotności i światła, zasilany panelem słonecznym",
         "degree2": "Technik Elektryczności i Energii",
         "degree2_date": "Wrzesień 2012 - Czerwiec 2014",
-        "university2": "Uniwersytet Mustafa Kemal, Gdynia, Polska",
+        "university2": "Uniwersytet Mustafa Kemal, Iskenderun, Turcja",
         "courses2": "Kluczowe przedmioty: Podstawy elektryczności, Podstawy elektroniki, Matematyka",
         "gpa2": "Średnia: 3.04/4.00",
 
