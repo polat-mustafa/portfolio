@@ -10,7 +10,7 @@ const translations = {
         "location": "Gdynia, Polonya",
         "linkedin": "linkedin.com/in/polat-mustafa",
         "github": "github.com/polat-mustafa",
-        "website": "https://polat-mustafa.github.io",
+        "website": "https://polat-mustafa.github.io/portfolio/",
         "medium": "https://polat-mustafa.medium.com/",
 
         // Bölüm başlıkları
@@ -32,7 +32,7 @@ const translations = {
         "email_send": "E-posta Gönder",
 
         // Profil
-        "profile_text": 'Enerji Sistemleri Mühendisiyim. Lise eğitimimde <strong>PIC16F84</strong> mikrodenetleyicisini programladım. Ön lisans eğitimim sırasında <strong>rüzgar türbini projeleri</strong> ve <strong>regülatörler</strong> üzerine çalıştım. Lisans eğitimimde ise <strong>Arduino destekli yenilenebilir enerji projeleri</strong> geliştirdim. Ayrıca <strong>MATLAB</strong> gibi mühendislik yazılımlarını aktif olarak kullandım. Kariyerime web teknolojileri alanında yoğunlaşarak devam ettim ve <strong>Full-Stack</strong> projeler geliştirdim. Özellikle <strong>JavaScript</strong> ve çeşitli frameworkler üzerinde uzmanlaştım. Bununla birlikte, farklı alanlara hızlıca adapte olabilme yeteneğine sahibim. <strong>Yapay zeka alanındaki gelişmeleri yakından takip etmekteyim</strong> ve bu alanda kendimi geliştirmeye devam ediyorum.',
+         "profile_text":"Mühendislik disiplininden gelen ve yazılım alanında kariyer hedefleyen biri olarak, <strong>Full-Stack</strong> geliştirme üzerine yoğunlaştım ve özellikle <strong>JavaScript</strong> ve <strong>modern frameworkler</strong> konusunda yetkinlik kazandım. <strong>PIC16F84 mikrodenetleyicisi</strong> programlama, rüzgar türbini projeleri ve Arduino tabanlı yenilenebilir enerji çözümleri gibi projelerde yer alarak donanım ve yazılım entegrasyonu üzerine deneyim kazandım. <br>Farklı programlama paradigmalarına hakimiyetim sayesinde, yeni yazılım dillerine ve teknolojilere hızlı adapte olabiliyorum. Analitik düşünme becerim ve mühendislik altyapım ile karmaşık problemlere etkili çözümler üretmeyi hedefliyorum. <strong>Yapay zeka</strong> ve <strong>oyun teknolojilerine</strong> duyduğum ilgi doğrultusunda kendimi sürekli geliştirmeye devam ediyorum.",
 
         // Eğitim
         "degree1": "Enerji Sistemleri Mühendisi",
@@ -179,7 +179,7 @@ const translations = {
         "location": "Gdynia, Poland",
         "linkedin": "linkedin.com/in/polat-mustafa",
         "github": "github.com/polat-mustafa",
-        "website": "https://polat-mustafa.github.io",
+        "website": "https://polat-mustafa.github.io/portfolio/",
         "medium": "https://polat-mustafa.medium.com/",
 
         // Section titles
@@ -201,7 +201,7 @@ const translations = {
         "email_send": "Send Email",
 
         // Profile
-        "profile_text": "I am an Energy Systems Engineer. During my high school education, I programmed the <strong>PIC16F84</strong> microcontroller. During my associate degree, I worked on <strong>wind turbine projects</strong> and <strong>regulators</strong>. In my undergraduate education, I developed <strong>Arduino-supported renewable energy projects</strong>. I also actively used engineering software such as <strong>MATLAB</strong>. I continued my career by focusing on web technologies and developed <strong>Full-Stack</strong> projects. I specialized particularly in <strong>JavaScript</strong> and various frameworks. Additionally, I have the ability to quickly adapt to different fields. I am <strong>closely following developments in artificial intelligence</strong> and continue to develop myself in this area.",
+        "profile_text":"Coming from an engineering background and aiming for a career in software development, I have focused on <strong>Full-Stack</strong> development, gaining expertise in <strong>JavaScript</strong> and <strong>modern frameworks</strong>. Through projects such as <strong>PIC16F84</strong> microcontroller programming, wind turbine projects, and <strong>Arduino</strong>-based renewable energy solutions, I have developed experience in hardware and software integration. <br>With my knowledge of different programming paradigms, I can quickly adapt to new programming languages and technologies. Leveraging my analytical thinking skills and engineering background, I strive to develop effective solutions for complex problems. I am continuously improving myself in line with my strong interest in <strong>artificial intelligence</strong> and <strong>game technologies</strong>.",
 
         // Education
         "degree1": "Energy Systems Engineer",
@@ -348,7 +348,7 @@ const translations = {
         "location": "Gdynia, Polska",
         "linkedin": "linkedin.com/in/polat-mustafa",
         "github": "github.com/polat-mustafa",
-        "website": "https://polat-mustafa.github.io",
+        "website": "https://polat-mustafa.github.io/portfolio/",
         "medium": "https://polat-mustafa.medium.com/",
 
         // Tytuły sekcji
@@ -370,7 +370,7 @@ const translations = {
         "email_send": "Wyślij Email",
 
         // Profil
-        "profile_text": 'Jestem inżynierem systemów energetycznych. W liceum programowałem mikrokontroler <strong>PIC16F84</strong>. Podczas studiów licencjackich pracowałem nad <strong>projektami turbin wiatrowych</strong> i <strong>regulatorami</strong>. Na studiach inżynierskich rozwijałem <strong>projekty energii odnawialnej wspierane przez Arduino</strong>. Aktywnie korzystałem również z oprogramowania inżynierskiego, takiego jak <strong>MATLAB</strong>. Kontynuowałem swoją karierę, koncentrując się na technologiach internetowych i rozwijałem projekty <strong>Full-Stack</strong>. Specjalizuję się w <strong>JavaScript</strong> i różnych frameworkach. Mam również zdolność szybkiego dostosowywania się do różnych dziedzin. <strong>Śledzę na bieżąco postępy w dziedzinie sztucznej inteligencji</strong> i nadal rozwijam się w tej dziedzinie.',
+        "profile_text":"Pochodząc z dziedziny inżynierii i dążąc do kariery w programowaniu, skupiłem się na <strong>Full-Stack</strong> developmencie, zdobywając doświadczenie w <strong>JavaScript</strong> i <strong>nowoczesnych frameworkach</strong>. Dzięki projektom, takim jak programowanie mikrokontrolera <strong>PIC16F84</strong>, projekty turbin wiatrowych oraz rozwiązania z zakresu odnawialnej energii oparte na <strong>Arduino</strong>, zdobyłem umiejętności w integracji sprzętu i oprogramowania. <br>Dzięki znajomości różnych paradygmatów programowania potrafię szybko dostosować się do nowych języków i technologii. Wykorzystując moje zdolności analityczne i doświadczenie inżynierskie, dążę do tworzenia skutecznych rozwiązań dla złożonych problemów. Nieustannie rozwijam się w kierunku moich zainteresowań w dziedzinie <strong>sztucznej inteligencji</strong> oraz <strong>technologii gier</strong>.",
 
         // Edukacja
         "degree1": "Inżynier Systemów Energetycznych",
